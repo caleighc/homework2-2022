@@ -1,0 +1,140 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Verdana, 'Times New Roman';
+}
+
+/*Make the h1 heading style: The level 1 heading is 48px, centered, and has padding of 15px*/
+h1{
+	font-size: 48px; 
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    text-align: center;
+}
+
+/*Make the h2 heading style: The level 2 heading is 32px, with grey (#808080) text-shadow property that is offset 2px horizontally and 4px vertically*/
+h2{
+	font-size: 32px; 
+    text-shadow: 2px 4px #808080;
+}
+
+/*Paragraphs styling: Paragraphs use 24px font and have 15px padding on the bottom and left only*/
+p {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+/*Style the images*/
+img {
+    width: 350px;
+    border: 10px dashed white;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+/*Style the divs*/
+div {
+    min-height: 100px;
+    height: auto;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+/*Style the intro div*/
+.intro {
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+/*Style the red div*/
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-left-width: 10px;
+    border-top: none !important;
+    border-right: none !important;
+    color: #FFFFFF !important;
+}
+
+/*Style the blue div*/
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-left-width: 10px;
+    border-top: none !important;
+    border-left: none !important;
+    color: #FFFFFF !important;
+}
+
+.blue p {
+    padding: 5px;
+}
+
+/*Style the yellow div*/
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-left-width: 10px;
+    border-top: none !important;
+    border-right: none !important;
+    color: #000000 !important;
+
+}
+.yellow p {
+    color: #000000 !important;
+}
+
+/*The heading and paragraph text is black (use hexadecimal values)*/
+p,header {
+    color: #FFFFFF;
+}
+
+header {
+    text-shadow: 2px 4px #c7e2c7;
+    color: #FFFFFF !important;
+}
+
+.green {
+    background-color: #008000;
+    text-align: left;
+    margin-right: 50px;
+    border-right-width: 10px;
+    border-left: none !important;
+    border-top: none !important;
+    color: #FFFFFF !important; 
+}
+
+.green p {
+    padding: 5px;
+}
+
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+footer {
+    background: linear-gradient(270deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
