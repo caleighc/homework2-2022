@@ -6,16 +6,17 @@ body{
     margin-right: 25px;
     background-color: #000000;
     color: #FFFFFF;
-    font-family: Verdana, 'Times New Roman';
+    font-family: Verdana, "Times New Roman";
 }
 
 /*Make the h1 heading style: The level 1 heading is 48px, centered, and has padding of 15px*/
 h1{
 	font-size: 48px; 
-	padding-top: 15px;
+    padding: 15px;
+	/* padding-top: 15px;
     padding-bottom: 15px;
 	padding-left: 15px;
-	padding-right: 15px;
+	padding-right: 15px; */
     text-align: center;
 }
 
@@ -43,7 +44,7 @@ img {
 
 /*Style the divs*/
 div {
-    min-height: 100px;
+    min-height: 100px;                    
     height: auto;
     padding: 20px;
     border: 3px solid white;
@@ -71,14 +72,10 @@ div {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-left-width: 10px;
+    border-right-width: 10px;
     border-top: none !important;
     border-left: none !important;
     color: #FFFFFF !important;
-}
-
-.blue p {
-    padding: 5px;
 }
 
 /*Style the yellow div*/
@@ -116,9 +113,6 @@ header {
     color: #FFFFFF !important; 
 }
 
-.green p {
-    padding: 5px;
-}
 
 span {
     text-decoration: underline;
@@ -136,5 +130,6 @@ footer p {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    padding-left: none;
     color: white;
 }
