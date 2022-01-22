@@ -131,10 +131,9 @@ footer {
 footer p {
     text-align: center;
     font-size: 20px;
-    padding-left: none;
     color: white;
     padding-top: 10px !important;
     padding-right: 10px !important;
     padding-bottom: 10px !important;
-    padding-left: none !important;
+    padding-left: 0px !important;
 }
