@@ -126,7 +126,10 @@ span {
 
 footer {
     background: linear-gradient(270deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
-    padding: 10px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: none !important;
 }
 
 footer p {
