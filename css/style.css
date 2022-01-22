@@ -104,7 +104,7 @@ header {
 }
 
 .green {
-    background-color: #008000;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
     border-right-width: 10px;
@@ -127,9 +127,9 @@ footer {
 footer p {
     text-align: center;
     font-size: 20px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
+    padding-right: 10px !important;;
+    padding-bottom: 10px !important;;
     padding-left: none;
     color: white;
 }
